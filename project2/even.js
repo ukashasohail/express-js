@@ -2,6 +2,7 @@ var express = require("express");
 var logger = require("morgan");
 var http = require("http");
 var app = express();
+var x;
 
 app.use(function (request, response, next) {
     console.log("In comes a " + request.method + " to " + request.url);
