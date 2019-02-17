@@ -1,0 +1,8 @@
+postman -> tool to test restful apis
+
+app.get -> read
+app.post -> create
+app.put -> update
+app.delete -> delete
+
+
